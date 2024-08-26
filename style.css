@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+
+}
+.landing-page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0e0e0e;
+}
+.landing-page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+.headingtxt{
+    font-family: "Abril Fatface", serif;
+    font-size: 4.5vw;
+    padding-left: 8vw;
+    padding-top: 35vh;
+}
+
+.projects-block {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-left: 65vw;
+    margin-top: -35vh;
+}
+
+
+.projects-block button{
+    padding: 2.5vw;
+    font-family: "Questrial", sans-serif;
+    font-style: bold;
+    font-size: 2vw;
+    color: black;
+    font-style: normal;
+    border-radius: 2vw;
+}
+
+.projects-block button:hover{
+    background-color: #42A4FF;
+}
+
+.landing-page3{
+    font-family: "Abril Fatface", serif;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgb(216, 216, 216), rgb(255, 255, 255));
+    text-align: center;
+    padding-top: 2.5vw;
+    font-size: 5vw;
+}
+
+.contact-txt{
+    padding-top: 20vh;
+    font-family: "Questrial", sans-serif;
+    font-size: 2vw;
+}
+
+#side-txt{
+    text-align: center;
+    padding-top: 22vh;
+    font-family: "Abril Fatface", serif;
+    font-size: 5vw;
+    font-weight: 150;
+    font-style: normal;
+    color: white;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    font-family: "Questrial", sans-serif;
+    font-size: 1.3vw;
+    color: white;
+    padding: 2.8vh;
+    width: 100vw;
+    height: 4vh;
+    position: fixed;
+    background-color: rgb(7, 7, 7);
+    opacity: 0.9;
+}
+
+.sideText{
+    margin-left: 2.8vw;
+}
+
+.subtxt-below{
+    color: white;
+    font-family: "Questrial", sans-serif;
+    padding-top: 2vh;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.subtxt{
+    font-family: "Questrial", sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+    padding-top: 10vh;
+    color: white;
+}
+
+#nav-bar button{
+    font-size: 1.3vw;
+    font-family: "Questrial", sans-serif;
+    color: white;
+    width: 7vw;
+    margin-left: 72vw;
+    border-radius: 1vw;
+    padding: 1.5vh;
+    background-color: rgb(27, 27, 27);
+}
+
+#nav-bar button:hover{
+    background-color: #42A4FF;
+}
+
+.skillSection{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 8.8vw;
+    margin-left: 8.8vw;
+    margin-right: 8.8vw;
+    font-size: 1.5vw;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    padding: 7vw;
+    font-optical-sizing: auto;
+}
