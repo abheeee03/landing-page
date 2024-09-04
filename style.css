@@ -175,5 +175,8 @@
     .contact-txt{
         font-size: 5vw;
     }
-    
+    #nav-bar button{
+        margin-left: 50vw;
+        width: 10vw;
+    }
 }
