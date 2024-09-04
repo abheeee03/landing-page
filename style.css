@@ -15,7 +15,7 @@
 }
 .headingtxt{
     font-family: "Abril Fatface", serif;
-    font-size: 4.5vw;
+    font-size: 4.5vmax;
     padding-left: 8vw;
     padding-top: 35vh;
 }
@@ -33,7 +33,7 @@
     padding: 2.5vw;
     font-family: "Questrial", sans-serif;
     font-style: bold;
-    font-size: 2vw;
+    font-size: 2vmax;
     color: black;
     font-style: normal;
     border-radius: 2vw;
@@ -46,25 +46,25 @@
 .landing-page3{
     font-family: "Abril Fatface", serif;
     color: black;
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
     background: linear-gradient(to bottom, rgb(216, 216, 216), rgb(255, 255, 255));
     text-align: center;
     padding-top: 2.5vw;
-    font-size: 5vw;
+    font-size: 5vmax;
 }
 
 .contact-txt{
     padding-top: 20vh;
     font-family: "Questrial", sans-serif;
-    font-size: 2vw;
+    font-size: 2vmax;
 }
 
 #side-txt{
     text-align: center;
     padding-top: 22vh;
     font-family: "Abril Fatface", serif;
-    font-size: 5vw;
+    font-size: 5vmax;
     font-weight: 150;
     font-style: normal;
     color: white;
@@ -74,7 +74,7 @@
     display: flex;
     align-items: center;
     font-family: "Questrial", sans-serif;
-    font-size: 1.3vw;
+    font-size: 1.3vmax;
     color: white;
     padding: 2.8vh;
     width: 100vw;
@@ -92,19 +92,19 @@
     color: white;
     font-family: "Questrial", sans-serif;
     padding-top: 2vh;
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     text-align: center;
 }
 .subtxt{
     font-family: "Questrial", sans-serif;
-    font-size: 1.2vw;
+    font-size: 1.2vmax;
     text-align: center;
     padding-top: 10vh;
     color: white;
 }
 
 #nav-bar button{
-    font-size: 1.3vw;
+    font-size: 1.3vmax;
     font-family: "Questrial", sans-serif;
     color: white;
     width: 7vw;
@@ -125,9 +125,55 @@
     gap: 8.8vw;
     margin-left: 8.8vw;
     margin-right: 8.8vw;
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     font-family: "Quantico", sans-serif;
     font-weight: 400;
     padding: 7vw;
     font-optical-sizing: auto;
+}
+.contact-txt a{ 
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    #side-txt{
+        font-size: 7.8vmax;
+    }
+    .subtxt-below{
+        font-size: 1.8vmax;
+    }
+    
+    .subtxt{
+        font-size: 1.5vmax;
+    }
+    .skillSection{
+        flex-direction: column;
+        font-size: 2.2vmax;
+        align-items: center;
+    }
+    .headingtxt{
+        font-size: 8vw;
+        padding: 0;
+        padding-top: 5vh;
+        text-align: center;
+    }
+    .projects-block{
+        margin: 0;
+        margin-top: 13vh;
+        gap: 5vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects-block button{
+        padding: 8vw;
+        font-size: 3.7vw;
+    }
+    .contact-txt{
+        font-size: 3vw;
+        padding-top: 9vh;
+    }
+    .contact-txt{
+        font-size: 5vw;
+    }
+    
 }
