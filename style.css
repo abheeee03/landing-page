@@ -135,7 +135,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #side-txt{
         font-size: 7.8vmax;
     }
